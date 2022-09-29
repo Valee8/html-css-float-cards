@@ -17,3 +17,61 @@ header {
     text-align: center;
     padding: 20px 0;
 }
+
+#container {
+    width: 60%;
+    margin: 0 auto;;
+}
+
+.text {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.row-section {
+    margin-bottom: 10px;
+}
+
+.col-section {
+    width: calc(100% / 3);
+    height: 75px;
+    background-color: #0F0E17;
+    float: left;
+}
+
+.col-section:first-child {
+    margin-left: 0;
+}
+
+.row-section::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.col-section .image, .col-section .image > img {
+    height: 100%;
+}
+
+.col-section .info {
+    color: #fff;
+    font-size: 13px;
+}
+
+.col-section .info .name {
+    font-weight: bold;
+}
+
+.col-section .info a {
+    color: #5AAFD2;
+    text-decoration: none;
+}
+
+.col-section .info a:hover {
+    color: #50CBEB;
+}
+
+.col-section .image, .col-section .info {
+    float: left;
+}
