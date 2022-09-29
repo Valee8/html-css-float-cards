@@ -21,7 +21,7 @@ header {
 /* Container */
 #container {
     width: 60%;
-    margin: 0 auto;;
+    margin: 0 auto;
 }
 
 /* Testo paragrafo */
@@ -30,11 +30,12 @@ header {
     font-size: 13px;
     margin-bottom: 30px;
     margin-top: 40px;
+    padding: 0 5px;
 }
 
 /* Righe */
 .row-section:first-child {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
 .row-section::after {
@@ -45,9 +46,11 @@ header {
 
 /* Colonne */
 .col-section {
+    width: calc(100% / 3 - 24px);
     height: 80px;
     background-color: #0F0E17;
     float: left;
+    margin: 0 12px;
 }
 
 .col-section .image, .col-section .image > img {
